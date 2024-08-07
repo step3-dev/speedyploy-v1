@@ -35,13 +35,11 @@ const HomeComponent = () => {
     <main className="h-full">
       <section>
         <h1 className="font-bold  text-center leading-10 text-[black] pt-40 text-4xl lg:text-6xl">
-          Discover rate <br />
-          collection or
-          <span className=""> Arts &amp; NFTs</span>
+          Quickly Deploy <br />
+          NFTs or ERC20 Tokens
         </h1>
         <p className="text-slate-400 dark:text-white/70 text-center  pt-5 text-lg max-w-xl mx-auto">
-          We are a huge marketplace dedicated to connecting great artists of all
-          Giglink with their fans and unique token collectors!
+          This is some additional placeholder text for helping people understand what this is...
         </p>
         <div className="flex justify-center mt-3">
           <button
@@ -54,7 +52,7 @@ const HomeComponent = () => {
           </button>
         </div>
       </section>
-      <section className="pt-40">
+      <section className="pt-20">
         <h2 className="text-center text-3xl text-[black] font-bold "> NFTs</h2>
         <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10 gap-[30px]">
           {nftItems.map((item, index) => {
@@ -62,7 +60,7 @@ const HomeComponent = () => {
           })}
         </div>
       </section>
-      <section className="pt-40">
+      <section className="pt-20">
         <div className="grid grid-cols-1 text-center">
           <h3 className="md:text-[30px] text-[26px] font-semibold text-black">
             Tokens
@@ -74,15 +72,14 @@ const HomeComponent = () => {
           })}
         </div>
       </section>
-      <section className="pt-40 pb-20">
+      <section className="pt-20 pb-20">
         <div className="grid grid-cols-1 text-center">
           <h3 className="mb-4 md:text-3xl text-black text-2xl md:leading-snug leading-snug font-semibold">
             Q&amp;A
           </h3>
 
           <p className="text-slate-400 max-w-xl mx-auto">
-            We are a huge marketplace dedicated to connecting great artists of
-            all Giglink with their fans and unique token collectors!
+          This is some additional placeholder text for helping people understand what this is...
           </p>
         </div>
         <div className="flex justify-center mt-10">
@@ -93,7 +90,7 @@ const HomeComponent = () => {
                 value="item-1"
               >
                 <AccordionTrigger className="text-black hover:no-underline">
-                  How does it work ?
+                  How does it work?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-400 dark:text-gray-400">
                   There are many variations of passages of Lorem Ipsum
@@ -106,7 +103,7 @@ const HomeComponent = () => {
                 value="item-2"
               >
                 <AccordionTrigger className="text-black hover:no-underline">
-                  Do I need a designer to use Giglink ?
+                  Do I need a designer to use Giglink?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-400 dark:text-gray-400">
                   There are many variations of passages of Lorem Ipsum
@@ -119,7 +116,7 @@ const HomeComponent = () => {
                 value="item-3"
               >
                 <AccordionTrigger className="text-black hover:no-underline">
-                  What do I need to do to start selling ?
+                  What do I need to do to start selling?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-400 dark:text-gray-400">
                   There are many variations of passages of Lorem Ipsum
@@ -132,7 +129,7 @@ const HomeComponent = () => {
                 value="item-4"
               >
                 <AccordionTrigger className="text-black hover:no-underline">
-                  What happens when I receive an order ?
+                  What happens when I receive an order?
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-400 dark:text-gray-400">
                   There are many variations of passages of Lorem Ipsum

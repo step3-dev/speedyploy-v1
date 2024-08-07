@@ -14,10 +14,10 @@ const Footer = () => {
                   <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div className="md:text-start text-center z-1">
                       <h3 className="text-[26px] font-semibold text-slate-900 dark:text-white">
-                        Subscribe to Newsletter!
+                        Subscribe to our newsletter!
                       </h3>
                       <p className="text-slate-400">
-                        Subscribe to get latest updates and information.
+                        Subscribe to get updates and information about this project.
                       </p>
                     </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
                           type="email"
                           name="email"
                           className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-slate-900 dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800"
-                          placeholder="Enter your email :"
+                          placeholder="Enter your email:"
                         />
                         <button
                           type="submit"
@@ -56,7 +56,7 @@ const Footer = () => {
         <div className="py-[30px] container mx-auto px-5 dark:border-gray-700">
           <div className="flex justify-between items-center ">
             <div>
-              <p className="text-white"> © 2024 Step3 All rights reserved.</p>
+              <p className="text-white"> © 2024 Step3</p>
             </div>
             <div className="flex justify-start items-center gap-2">
                 <Link className=" border border-[#fff] rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600 py-1 px-1" target="blank" href="https://twitter.com/getstep3">  

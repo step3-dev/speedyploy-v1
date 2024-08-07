@@ -19,7 +19,7 @@ const TokenCard = () => {
             href=""
             className="font-semibold text-slate-400 block hover:text-red-600"
           >
-            PGFK
+            SPDY
           </Link>
           <span className="text-slate-400 text-sm block mt-0.5">
             ERC20
